@@ -19,7 +19,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func onLoginClicked(_ sender: Any) {
         if self.onValidateTextField() {
-            self.onShowAlert("Login success")
+            self.navigationController?.pushViewController(CalculatorViewController(), animated: true)
         } else {
             self.onShowAlert("Login fail")
         }
