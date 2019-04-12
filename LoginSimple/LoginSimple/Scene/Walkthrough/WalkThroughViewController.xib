@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WalkThroughViewController" customModule="LoginSimple" customModuleProvider="target">
+            <connections>
+                <outlet property="btnNext" destination="T6H-0g-VLN" id="i3o-54-0Wy"/>
+                <outlet property="btnPrev" destination="MS0-Gg-swT" id="q7c-Np-QbK"/>
+                <outlet property="collectionView" destination="2bK-X6-fVl" id="9Y6-US-Qsv"/>
+                <outlet property="pageControl" destination="ev7-UD-opd" id="hpi-sf-4Xf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="2bK-X6-fVl">
+                    <rect key="frame" x="0.0" y="44" width="414" height="736.33333333333337"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5zz-lZ-aC3">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="bxa-y8-r5f"/>
+                        <outlet property="delegate" destination="-1" id="ZMQ-GI-u8x"/>
+                    </connections>
+                </collectionView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Vo9-8Q-PF1">
+                    <rect key="frame" x="0.0" y="780.33333333333337" width="414" height="81.666666666666629"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MS0-Gg-swT">
+                            <rect key="frame" x="0.0" y="0.0" width="101.66666666666667" height="81.666666666666671"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                            <state key="normal" title="PREV">
+                                <color key="titleColor" red="0.50588235294117645" green="0.50588235294117645" blue="0.50588235294117645" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onPrevPressed:" destination="-1" eventType="touchUpInside" id="I9W-8h-JFP"/>
+                            </connections>
+                        </button>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="ev7-UD-opd">
+                            <rect key="frame" x="101.66666666666669" y="0.0" width="206" height="81.666666666666671"/>
+                            <color key="pageIndicatorTintColor" red="0.94117647058823528" green="0.5725490196078431" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="currentPageIndicatorTintColor" red="0.90196078431372551" green="0.27450980392156865" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                        </pageControl>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6H-0g-VLN">
+                            <rect key="frame" x="307.66666666666669" y="0.0" width="106.33333333333331" height="81.666666666666671"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                            <state key="normal" title="NEXT">
+                                <color key="titleColor" red="0.90196078431372551" green="0.27450980392156865" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="onNextPressed:" destination="-1" eventType="touchUpInside" id="ZLO-Kf-OTL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Vo9-8Q-PF1" secondAttribute="trailing" id="f3x-L1-lkv"/>
+                <constraint firstItem="Vo9-8Q-PF1" firstAttribute="top" secondItem="2bK-X6-fVl" secondAttribute="bottom" id="f66-jm-vPl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2bK-X6-fVl" secondAttribute="trailing" id="gKx-AK-Vod"/>
+                <constraint firstItem="Vo9-8Q-PF1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gf1-nd-iCI"/>
+                <constraint firstItem="Vo9-8Q-PF1" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.1" id="jYw-3d-BgY"/>
+                <constraint firstItem="2bK-X6-fVl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="mDp-r1-kFR"/>
+                <constraint firstItem="2bK-X6-fVl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="nE3-XF-QDQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Vo9-8Q-PF1" secondAttribute="bottom" id="pSv-dp-6Qp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

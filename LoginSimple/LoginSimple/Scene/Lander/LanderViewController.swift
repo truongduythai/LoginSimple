@@ -24,7 +24,7 @@ class LanderViewController: UIViewController {
             self.counterCurrent += 1 / (self.couterTotal * 100)
             self.progressView.setProgress(self.counterCurrent, animated: true)
             if self.counterCurrent >= 1 {
-                self.navigationController?.pushViewController(SignInViewController(), animated: true)
+                self.navigationController?.pushViewController(WalkThroughViewController(), animated: true)
                 timer.invalidate()
             }
         })

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WalkThroughCell" customModule="LoginSimple" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="544"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="301" height="544"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hy5-oy-9zd">
+                        <rect key="frame" x="0.0" y="0.0" width="301" height="163.33333333333334"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="third" translatesAutoresizingMaskIntoConstraints="NO" id="9Ek-r2-ByO">
+                                <rect key="frame" x="0.0" y="24.333333333333336" width="301" height="114.33333333333331"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9Ek-r2-ByO" firstAttribute="height" secondItem="Hy5-oy-9zd" secondAttribute="height" multiplier="0.7" id="8CO-dG-Pj0"/>
+                            <constraint firstItem="9Ek-r2-ByO" firstAttribute="width" secondItem="Hy5-oy-9zd" secondAttribute="width" id="lWt-40-hfn"/>
+                            <constraint firstItem="9Ek-r2-ByO" firstAttribute="centerY" secondItem="Hy5-oy-9zd" secondAttribute="centerY" id="teW-l6-V8U"/>
+                            <constraint firstItem="9Ek-r2-ByO" firstAttribute="centerX" secondItem="Hy5-oy-9zd" secondAttribute="centerX" id="vYV-cL-VWK"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join us today in our awesome flower!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96d-u1-jLt">
+                        <rect key="frame" x="20" y="183.33333333333334" width="261" height="54.666666666666657"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you ready for loads and loads of fun? Don't wait any longer! We hope to see you in our stores soon." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCc-Rb-nlE">
+                        <rect key="frame" x="20" y="270.66666666666669" width="261" height="93"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Hy5-oy-9zd" secondAttribute="trailing" id="3MR-c3-zkW"/>
+                <constraint firstItem="96d-u1-jLt" firstAttribute="top" secondItem="Hy5-oy-9zd" secondAttribute="bottom" constant="20" id="5Tw-ks-lje"/>
+                <constraint firstItem="JCc-Rb-nlE" firstAttribute="top" secondItem="96d-u1-jLt" secondAttribute="bottom" constant="32.666666666666686" id="8aV-dC-4n5"/>
+                <constraint firstItem="96d-u1-jLt" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" constant="-20" id="Hml-8u-iYa"/>
+                <constraint firstItem="Hy5-oy-9zd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KyD-mU-RDc"/>
+                <constraint firstItem="Hy5-oy-9zd" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.3" id="Rjr-vL-s6B"/>
+                <constraint firstItem="JCc-Rb-nlE" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" constant="-20" id="djF-qV-wQe"/>
+                <constraint firstItem="96d-u1-jLt" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="20" id="fdK-Ax-4Dc"/>
+                <constraint firstItem="Hy5-oy-9zd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="h3E-Xy-OCZ"/>
+                <constraint firstItem="JCc-Rb-nlE" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="20" id="wmI-o8-V3d"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="301" height="544"/>
+            <point key="canvasLocation" x="312.31884057971018" y="353.57142857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="third" width="250" height="250"/>
+    </resources>
+</document>

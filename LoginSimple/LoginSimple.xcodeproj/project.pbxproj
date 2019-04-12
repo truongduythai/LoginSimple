@@ -13,6 +13,10 @@
 		3C31112F225459710096E355 /* CalculatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C31112D225459710096E355 /* CalculatorCell.xib */; };
 		3C311135225469360096E355 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C311134225469360096E355 /* UIColor.swift */; };
 		3C3111392254A64F0096E355 /* CalculatorViewController+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3111382254A64F0096E355 /* CalculatorViewController+Math.swift */; };
+		3C4C04BB22603B0F00DBFD36 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C04B922603B0F00DBFD36 /* WalkThroughViewController.swift */; };
+		3C4C04BC22603B0F00DBFD36 /* WalkThroughViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C04BA22603B0F00DBFD36 /* WalkThroughViewController.xib */; };
+		3C4C04C022603DEA00DBFD36 /* WalkThroughCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C04BE22603DEA00DBFD36 /* WalkThroughCell.swift */; };
+		3C4C04C122603DEA00DBFD36 /* WalkThroughCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4C04BF22603DEA00DBFD36 /* WalkThroughCell.xib */; };
 		3C6838FD224D1FC700A09E86 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6838FC224D1FC700A09E86 /* Utils.swift */; };
 		3C9A545A224BBF9D00A9D614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A5459224BBF9D00A9D614 /* AppDelegate.swift */; };
 		3C9A545C224BBF9D00A9D614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A545B224BBF9D00A9D614 /* ViewController.swift */; };
@@ -23,6 +27,12 @@
 		3C9A546F224BC36400A9D614 /* LanderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9A546D224BC36400A9D614 /* LanderViewController.xib */; };
 		3C9A5473224BD90600A9D614 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A5471224BD90600A9D614 /* SignInViewController.swift */; };
 		3C9A5474224BD90600A9D614 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9A5472224BD90600A9D614 /* SignInViewController.xib */; };
+		3CAD0146225F7D670023F786 /* SignInByCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD0144225F7D670023F786 /* SignInByCodeViewController.swift */; };
+		3CAD0147225F7D670023F786 /* SignInByCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD0145225F7D670023F786 /* SignInByCodeViewController.xib */; };
+		3CB8FD462260CE5A00418276 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8FD442260CE5A00418276 /* SimpleTableViewController.swift */; };
+		3CB8FD472260CE5A00418276 /* SimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8FD452260CE5A00418276 /* SimpleTableViewController.xib */; };
+		3CB8FD4A2260CF0800418276 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8FD482260CF0800418276 /* SimpleTableViewCell.swift */; };
+		3CB8FD4B2260CF0800418276 /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB8FD492260CF0800418276 /* SimpleTableViewCell.xib */; };
 		3CE1AB3B224DC2E500950DAD /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1AB3A224DC2E500950DAD /* UILabel.swift */; };
 		3CE1AB3D224DC59100950DAD /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1AB3C224DC59100950DAD /* UIButton.swift */; };
 		3CE1AB3F224DC9FE00950DAD /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1AB3E224DC9FE00950DAD /* UITextField.swift */; };
@@ -35,6 +45,10 @@
 		3C31112D225459710096E355 /* CalculatorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculatorCell.xib; sourceTree = "<group>"; };
 		3C311134225469360096E355 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		3C3111382254A64F0096E355 /* CalculatorViewController+Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalculatorViewController+Math.swift"; sourceTree = "<group>"; };
+		3C4C04B922603B0F00DBFD36 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
+		3C4C04BA22603B0F00DBFD36 /* WalkThroughViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkThroughViewController.xib; sourceTree = "<group>"; };
+		3C4C04BE22603DEA00DBFD36 /* WalkThroughCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughCell.swift; sourceTree = "<group>"; };
+		3C4C04BF22603DEA00DBFD36 /* WalkThroughCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkThroughCell.xib; sourceTree = "<group>"; };
 		3C6838FC224D1FC700A09E86 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3C9A5456224BBF9D00A9D614 /* LoginSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9A5459224BBF9D00A9D614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +61,12 @@
 		3C9A546D224BC36400A9D614 /* LanderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanderViewController.xib; sourceTree = "<group>"; };
 		3C9A5471224BD90600A9D614 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3C9A5472224BD90600A9D614 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		3CAD0144225F7D670023F786 /* SignInByCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInByCodeViewController.swift; sourceTree = "<group>"; };
+		3CAD0145225F7D670023F786 /* SignInByCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInByCodeViewController.xib; sourceTree = "<group>"; };
+		3CB8FD442260CE5A00418276 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		3CB8FD452260CE5A00418276 /* SimpleTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewController.xib; sourceTree = "<group>"; };
+		3CB8FD482260CF0800418276 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		3CB8FD492260CF0800418276 /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
 		3CE1AB3A224DC2E500950DAD /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		3CE1AB3C224DC59100950DAD /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		3CE1AB3E224DC9FE00950DAD /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
@@ -73,6 +93,25 @@
 				3C3111382254A64F0096E355 /* CalculatorViewController+Math.swift */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		3C4C04B82260398800DBFD36 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				3C4C04BD22603DB200DBFD36 /* Cell */,
+				3C4C04B922603B0F00DBFD36 /* WalkThroughViewController.swift */,
+				3C4C04BA22603B0F00DBFD36 /* WalkThroughViewController.xib */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		3C4C04BD22603DB200DBFD36 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C4C04BE22603DEA00DBFD36 /* WalkThroughCell.swift */,
+				3C4C04BF22603DEA00DBFD36 /* WalkThroughCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		3C9A544D224BBF9D00A9D614 = {
@@ -121,13 +160,28 @@
 			children = (
 				3C9A5471224BD90600A9D614 /* SignInViewController.swift */,
 				3C9A5472224BD90600A9D614 /* SignInViewController.xib */,
+				3CAD0144225F7D670023F786 /* SignInByCodeViewController.swift */,
+				3CAD0145225F7D670023F786 /* SignInByCodeViewController.xib */,
 			);
 			path = SignIn;
+			sourceTree = "<group>";
+		};
+		3CB8FD432260CE4000418276 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3CB8FD442260CE5A00418276 /* SimpleTableViewController.swift */,
+				3CB8FD452260CE5A00418276 /* SimpleTableViewController.xib */,
+				3CB8FD482260CF0800418276 /* SimpleTableViewCell.swift */,
+				3CB8FD492260CF0800418276 /* SimpleTableViewCell.xib */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		3CE1AB38224DC2B600950DAD /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				3CB8FD432260CE4000418276 /* TableView */,
+				3C4C04B82260398800DBFD36 /* Walkthrough */,
 				3C311127225454910096E355 /* Calculator */,
 				3C9A5470224BD8F700A9D614 /* SignIn */,
 				3C9A546B224BC35100A9D614 /* Lander */,
@@ -208,7 +262,12 @@
 				3C9A5464224BBF9F00A9D614 /* LaunchScreen.storyboard in Resources */,
 				3C9A5461224BBF9F00A9D614 /* Assets.xcassets in Resources */,
 				3C9A546F224BC36400A9D614 /* LanderViewController.xib in Resources */,
+				3C4C04C122603DEA00DBFD36 /* WalkThroughCell.xib in Resources */,
+				3CB8FD4B2260CF0800418276 /* SimpleTableViewCell.xib in Resources */,
+				3CAD0147225F7D670023F786 /* SignInByCodeViewController.xib in Resources */,
+				3CB8FD472260CE5A00418276 /* SimpleTableViewController.xib in Resources */,
 				3C31112B225454AE0096E355 /* CalculatorViewController.xib in Resources */,
+				3C4C04BC22603B0F00DBFD36 /* WalkThroughViewController.xib in Resources */,
 				3C9A545F224BBF9D00A9D614 /* Main.storyboard in Resources */,
 				3C31112F225459710096E355 /* CalculatorCell.xib in Resources */,
 			);
@@ -222,16 +281,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6838FD224D1FC700A09E86 /* Utils.swift in Sources */,
+				3C4C04C022603DEA00DBFD36 /* WalkThroughCell.swift in Sources */,
 				3C9A5473224BD90600A9D614 /* SignInViewController.swift in Sources */,
 				3C9A546E224BC36400A9D614 /* LanderViewController.swift in Sources */,
 				3C31112E225459710096E355 /* CalculatorCell.swift in Sources */,
+				3CAD0146225F7D670023F786 /* SignInByCodeViewController.swift in Sources */,
+				3C4C04BB22603B0F00DBFD36 /* WalkThroughViewController.swift in Sources */,
 				3CE1AB3D224DC59100950DAD /* UIButton.swift in Sources */,
 				3C9A545C224BBF9D00A9D614 /* ViewController.swift in Sources */,
 				3C3111392254A64F0096E355 /* CalculatorViewController+Math.swift in Sources */,
 				3CE1AB3B224DC2E500950DAD /* UILabel.swift in Sources */,
+				3CB8FD462260CE5A00418276 /* SimpleTableViewController.swift in Sources */,
 				3C311135225469360096E355 /* UIColor.swift in Sources */,
 				3CE1AB3F224DC9FE00950DAD /* UITextField.swift in Sources */,
 				3C31112A225454AE0096E355 /* CalculatorViewController.swift in Sources */,
+				3CB8FD4A2260CF0800418276 /* SimpleTableViewCell.swift in Sources */,
 				3C9A545A224BBF9D00A9D614 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,13 +444,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginSimple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.LoginSimple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -397,13 +462,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginSimple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.LoginSimple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
